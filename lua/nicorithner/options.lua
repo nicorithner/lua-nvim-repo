@@ -46,4 +46,4 @@ vim.cmd [[set iskeyword+=-]]
 vim.cmd [[set formatoptions-=cro]] -- TODO: this doesn't seem to work
 
 -- My temporary colorscheme
-vim.cmd [[colorscheme industry]]
+-- vim.cmd [[colorscheme industry]]
