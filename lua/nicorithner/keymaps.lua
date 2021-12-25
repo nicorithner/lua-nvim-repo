@@ -17,9 +17,8 @@ vim.g.maplocalleader = " "
 --   term_mode = "t",
 --   command_mode = "c",
 
--- Normal --
+-- General --
 
-keymap("n", "<leader>e", ":Lex 30<cr>", opts)
 keymap("n", "<leader>k", ":nohlsearch<CR>", opts)
 
 -- Telescope
@@ -27,3 +26,6 @@ keymap("n", "<leader>ff", "<cmd>Telescope find_files<cr>", opts)
 -- keymap("n", "<leader>f", "<cmd>lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({ previewer = false }))<cr>", opts)
 keymap("n", "<leader>fg", "<cmd>Telescope live_grep<cr>", opts)
 keymap("n", "<leader>fb", "<cmd>Telescope file_browser<cr>", opts)
+
+-- Nvimtree
+keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
