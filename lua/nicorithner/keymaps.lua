@@ -20,6 +20,7 @@ vim.g.maplocalleader = " "
 -- General --
 
 keymap("n", "<leader>k", ":nohlsearch<CR>", opts)
+keymap("n", "<leader>F", ":lua vim.lsp.buf.formatting()<CR>", opts)
 
 -- Telescope
 keymap("n", "<leader>ff", "<cmd>Telescope find_files<cr>", opts)
