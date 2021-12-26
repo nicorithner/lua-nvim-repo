@@ -44,15 +44,16 @@ return packer.startup(function(use)
   use "wbthomason/packer.nvim" -- Have packer manage itself
   use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
-  use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter  use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitteuse "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitterr
+  use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
   use "numToStr/Comment.nvim"
-  use 'kyazdani42/nvim-web-devicons'
-  use 'kyazdani42/nvim-tree.lua' -- file navigation plugin
+  use "kyazdani42/nvim-web-devicons"
+  use "kyazdani42/nvim-tree.lua" -- file navigation plugin
   use "nvim-lualine/lualine.nvim"
   use "tpope/vim-surround"
+  use "wakatime/vim-wakatime"
 
   -- Colorschemes
-  use 'folke/tokyonight.nvim' -- https://github.com/folke/tokyonight.nvim
+  use "folke/tokyonight.nvim" -- https://github.com/folke/tokyonight.nvim
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
