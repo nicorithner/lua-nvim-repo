@@ -43,3 +43,5 @@ end
 
 vim.cmd "set whichwrap+=<,>,[,],h,l"
 vim.cmd [[set iskeyword+=-]]
+
+vim.g.markdown_fenced_languages = {'bash=sh', 'css', 'javascript', 'js=javascript', 'json=javascript', 'jsx=javascript','ruby', 'sass', 'xml', 'html'}
