@@ -51,6 +51,7 @@ return packer.startup(function(use)
   use "nvim-lualine/lualine.nvim"
   use "tpope/vim-surround"
   use "wakatime/vim-wakatime"
+  use "airblade/vim-gitgutter"
 
   -- Colorschemes
   use "folke/tokyonight.nvim" -- https://github.com/folke/tokyonight.nvim
