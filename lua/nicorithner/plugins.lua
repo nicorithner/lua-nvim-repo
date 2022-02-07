@@ -49,9 +49,11 @@ return packer.startup(function(use)
   use "kyazdani42/nvim-web-devicons"
   use "kyazdani42/nvim-tree.lua" -- file navigation plugin
   use "nvim-lualine/lualine.nvim"
+  use "akinsho/toggleterm.nvim"
   use "tpope/vim-surround"
   use "wakatime/vim-wakatime"
   use "airblade/vim-gitgutter"
+  use "lukas-reineke/indent-blankline.nvim" --https://github.com/lukas-reineke/indent-blankline.nvim
 
   -- Colorschemes
   use "folke/tokyonight.nvim" -- https://github.com/folke/tokyonight.nvim
