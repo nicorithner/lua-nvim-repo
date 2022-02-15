@@ -30,9 +30,8 @@ keymap("n", "<silent>gR", ":lua vim.lsp.buf.rename()<CR>", opts)
 -- Telescope
 keymap("n", "<leader>ff", "<cmd>Telescope find_files<cr>", opts)
 keymap("n", "<leader>fg", "<cmd>Telescope live_grep<cr>", opts)
-keymap("n", "<leader>fb", "<cmd>Telescope file_browser<cr>", opts)
-keymap("n", "<leader><space>", "<cmd>Telescope git_files<CR>", opts)
-keymap("n","<leader>fd", ":lua telescope_find_files_in_path()<CR>", opts)
+keymap("n", "<leader>fo", "<cmd>Telescope oldfiles<cr>", opts)
+keymap("n", "<leader>fgit", "<cmd>Telescope git_files<CR>", opts)
 
 -- Nvimtree
 keymap("n", "<leader>n", ":NvimTreeToggle<cr>", opts)
