@@ -54,6 +54,7 @@ return packer.startup(function(use)
   use "wakatime/vim-wakatime"
   use "airblade/vim-gitgutter"
   use "lukas-reineke/indent-blankline.nvim" --https://github.com/lukas-reineke/indent-blankline.nvim
+  use 'davidgranstrom/nvim-markdown-preview' --https://github.com/davidgranstrom/nvim-markdown-preview
 
   -- Colorschemes
   use "folke/tokyonight.nvim" -- https://github.com/folke/tokyonight.nvim
