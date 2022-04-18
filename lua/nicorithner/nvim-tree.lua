@@ -35,15 +35,11 @@ end
 local tree_cb = nvim_tree_config.nvim_tree_callback
 
 nvim_tree.setup {
+  auto_reload_on_write = true,
   disable_netrw = true,
   hijack_netrw = true,
   open_on_setup = false,
-  ignore_ft_on_setup = {
-    "startify",
-    "dashboard",
-    "alpha",
-  },
-  auto_close = true,
+  ignore_ft_on_setup = { "startify", "dashboard", "alpha" },
   open_on_tab = false,
   hijack_cursor = false,
   update_cwd = true,
@@ -79,7 +75,7 @@ nvim_tree.setup {
     timeout = 500,
   },
   view = {
-    width = 45,
+    width = 35,
     height = 30,
     hide_root_folder = false,
     side = "left",
